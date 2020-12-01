@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Purjehduskello</title>
+    <meta name="description" content="Laskuri, joka kertoo kuinka paljon aikaa purjehduskauden alkuun">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="input__box">
+        <div class="input">
+            <div id="heading1">Veneenlaskun aika</div>
+            <input type="date" id="date">
+            <input type="time" id="time" name="time">
+            <input type="button" id="start__btn" value="Käynnistä ajastin" onclick="Timer()">
+        </div>
+    </div>
+    <div class="output__box">
+        <div class="output">
+            <div id="heading2">Purjehduskauden alkuun aikaa:</div>
+            <div id="days"> </div>
+            <div id="hours"> </div>
+            <div id="minutes"> </div>
+            <div id="sekonds"> </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js" async defer></script>
+</body>
+
+</html>

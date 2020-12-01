@@ -1,0 +1,100 @@
+body {
+    background-image: url("lake.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #cccccc;
+}
+
+.input__box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(95, 168, 202, 0.4);
+    border-radius: 3px;
+    width: 300px;
+    border: 30px;
+    margin: 30px;
+
+
+
+}
+
+#heading1,
+#date,
+#time,
+#start__btn {
+    margin: 8px;
+}
+
+#heading1 {
+    font-size: large;
+    font-weight: bold;
+}
+
+#start__btn {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    font-size: 10px;
+    background-color: #067c90;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+#start__btn:hover {
+    background-color: #033942
+}
+
+#start__btn:active {
+    transform: translateY(1px);
+}
+
+.output__box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
+    width: 300px;
+    border: 30px;
+    margin: 30px;
+}
+
+#heading2,
+#days,
+#hours,
+#minutes,
+#sekonds {
+    font-weight: bold;
+    margin: 8px;
+}
+
+#heading2 {
+    font-size: large;
+    color: whitesmoke;
+}
+
+#days,
+#hours,
+#minutes,
+#sekonds {
+    font-size: 2em;
+    color: rgb(250, 7, 7);
+}
